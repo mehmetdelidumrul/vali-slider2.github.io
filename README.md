@@ -11,16 +11,7 @@
     </div>
   </div>
 
-  <script>
-    let index = 0;
-    const slides = document.getElementById("slides");
-    const total = slides.children.length;
-
-    setInterval(() => {
-      index = (index + 1) % total;
-      slides.style.transform = `translateX(-${index * 100}%)`;
-    }, 3000);
-  </script>
+ 
 
 </body>
 </html>
