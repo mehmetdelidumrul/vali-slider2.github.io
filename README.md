@@ -1,43 +1,6 @@
   <!DOCTYPE html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vali Ünal Erkan İlkokulu Slider</title>
 
-  <!-- Basit stiller -->
-  <style>
-    body {
-      margin: 0;
-      background-color: #f5f5f5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .slider {
-      position: relative;
-      width: 100%;
-      max-width: 600px;
-      overflow: hidden;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    }
-    .slides {
-      display: flex;
-      transition: transform 0.8s ease;
-    }
-    .slide {
-      min-width: 100%;
-      box-sizing: border-box;
-    }
-    img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-  </style>
-</head>
 <body>
 
   <div class="slider">
